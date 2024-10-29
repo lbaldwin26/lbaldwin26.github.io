@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+theme = 'risotto'
+title = 'Luke Baldwin'
+author = 'Luke Baldwin'
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.about]
+title = "Luke"
+description = ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
