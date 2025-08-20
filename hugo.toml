@@ -1,8 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 theme = 'risotto'
-title = 'Luke Baldwin'
-author = 'Luke Baldwin'
+title = 'Portfolio'
+author = ''
 
 sectionPagesMenu = "main"
 
@@ -10,7 +10,7 @@ sectionPagesMenu = "main"
 noindex = false
 
 [params.about]
-title = "Luke"
+title = ""
 description = ""
 
 [menu]
@@ -20,6 +20,7 @@ description = ""
     name = "About"
     url = "/about/"
     weight = 10
+
 
 [taxonomies]
 category = "categories"
